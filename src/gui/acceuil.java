@@ -68,15 +68,15 @@ public class acceuil extends Form {
                     ctDetails.add(new Label("categorie: "+li.get(i).getNom()));
                 }
 */
-        EncodedImage enc = EncodedImage.createFromImage(theme.getImage("t.jpg"), false);
-        Image image = URLImage.createToStorage(enc, vid.getCoverimage(), "http://localhost/TalandWEB/web/images" + vid.getCoverimage());
-        ImageViewer img = new ImageViewer(image);
-       holder.add(img);
+     //   EncodedImage enc = EncodedImage.createFromImage(theme.getImage("t.jpg"), false);
+     //   Image image = URLImage.createToStorage(enc, vid.getCoverimage(), "http://localhost/TalandWEB/web/images" + vid.getCoverimage());
+     //   ImageViewer img = new ImageViewer(image);
+     //  holder.add(img);
         holder.add(ctDetails);
         // img.addPointerReleasedListener(new ActionListener() {
         //     @Override
         //     public void actionPerformed(ActionEvent evt) {
-        
+
         //      }
         //   });
 
