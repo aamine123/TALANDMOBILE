@@ -42,7 +42,7 @@ public class acceuil extends Form {
         listsujetscont = new Container();
         for (int i = 0; i < Sujets.size(); i++) {
             listsujetscont.add(addItem(ser.getAllTasks().get(i)));
-        }
+        } 
         add(listsujetscont);
         /********end afficher les sujets**********/
 
